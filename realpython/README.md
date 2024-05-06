@@ -25,6 +25,7 @@
 
 **Steps to execute**
 - Manage dependencies using Poetry.
+    - Step into the environment via `poetry shell`.
 - Run it via `uvicorn_main:app_ --reload`
     - With `--reload` your application will reload automatically.
 
