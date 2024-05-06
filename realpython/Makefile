@@ -1,8 +1,8 @@
 run:
-	uvicorn main:app
+	uvicorn main:app --app-dir ./app
 
 run-reload:
-	uvicorn main:app --reload
+	uvicorn main:app --app-dir ./app --reload
 
 test:
 	pytest .
